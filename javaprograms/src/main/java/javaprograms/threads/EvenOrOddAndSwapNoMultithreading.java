@@ -17,11 +17,10 @@ import java.util.logging.Logger;
  *         is a lightweight process requiring fewer resources to create and
  *         share the process resources.<br>
  * 
- *         Synchronization is the process of controlling other threads access
- *         when execution of thread.
+ *         Synchronization is the process of controlling other thread access
+ *         when execution of current thread.
  *
  */
-
 public class EvenOrOddAndSwapNoMultithreading {
 
 	static Logger logger = Logger.getLogger(EvenOrOddAndSwapNoMultithreading.class.getName());
